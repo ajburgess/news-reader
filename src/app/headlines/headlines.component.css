@@ -1,0 +1,12 @@
+div.headline {
+    border: 1px solid gray;
+    background-color: lightgray;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+div.headline img {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 4px;
+}

@@ -1,0 +1,7 @@
+<h1>Headlines</h1>
+<div *ngIf="data != undefined">
+    <div *ngFor="let result of data.response.results" class="headline" (click)="pickArticle(result.id)">
+        <img [src]="result.fields.thumbnail" />
+        {{result.webTitle}}
+    </div>
+</div>
